@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html
+	xmlns:og="http://ogp.me/ns#"
+ 	xmlns:fb="http://ogp.me/ns/fb#"
+ 	prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
+	<title>Информация обо мне</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="first-page.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" content="Основная информация обо мне: моя фотография, почему я решила изучать веб-разработку и мои навыки в программировании.">
+	<meta name="Keywords" content="обо мне, веб-программист, веб-разработка, программирование, контент-менеджер, создание сайтов">
+	<meta property="og:type" content="website">
+	<meta property="og:type" content="article"> 
+	<meta property="og:url" content="https://first-page.html/"> 
+	<meta property="og:title" content="Основная информация обо мне"> 
+	<meta property="og:description" content="Основная информация обо мне: моя фотография, почему я решила изучать веб-разработку и мои навыки в программировании."> 
+	<meta name='author' content='Хасанова Алина'>
+</head>
+<div class="container">
+		<frameset class="rows_frameset" rows="100, *, 50" border="none">
+			<frame class="responsive-iframe header_frame" src="header.html"></frame>
+			<frameset cols="268, *">
+				<frame class="responsive-iframe" src="menu.html" name="menu"></frame>
+				<frame class="responsive-iframe" src="aboutme.html" name="content"></frame>
+			</frameset>
+			<frame class="responsive-iframe" src="footer.html"></frame>
+		</frameset>
+	</div>
+</html>

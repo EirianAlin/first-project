@@ -1,0 +1,134 @@
+body, textarea {
+	color: #191a1b;
+	font: 15px Arial Verdana;
+	background-color: #f0f0f0;
+}
+
+body {
+	font-family: Arial Verdana;
+}
+
+th {
+	font-size: 25px;
+}
+
+
+body, html {
+			padding: 0;
+			margin: 0;
+}
+
+
+header > h1 {
+			margin: 0;
+			padding-top: 20px;
+			text-align: center;
+			color: #fff;
+			font-size: 40px;
+}
+
+header {
+	height: 100px;
+	background-color: #191a1b;
+}
+
+footer {
+	margin: 0;
+	background-color: #191a1b;
+	height: 50px;
+	clear: both;
+}
+
+footer p {
+			text-align: center;
+			padding-top: 15px;
+			color: #fff;
+			margin: 0;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+textarea {
+	background-color: white;
+}
+
+.button1 {
+	border: none; 
+	border-radius: 5px; 
+	border: 1px solid black; 
+	padding: 5px 15px; 
+}
+
+.button2 {
+	border: none; 
+	border-radius: 5px; 
+	border: 1px solid black; 
+	padding: 5px 15px; 
+}
+
+.button1 { 
+	background-color: #333333;
+	color: white;
+	transition: 1s;
+	transition-property: background;
+}
+
+.button1:hover {
+	background-color: #CC3399; 
+}
+
+.button2 {
+	background-color: #333333; 
+	color: white;
+	transition: 1s; 
+	transition-property: background; 
+}
+
+.button2:hover {
+	background-color: #CC3399; 
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #CC3399;
+}
+
+.wrapper {
+	min-height: 100vh;
+	margin-bottom: -50px;
+}
+
+@media screen and (max-width: 1024px) {
+			header > h1 {
+			    margin: 0;
+			    text-align: center;
+			    background-color: #191a1b;
+			    color: #fff;
+			    font-size: 20px;
+			}
+			h1 {
+				padding-bottom: 0px;
+			}
+			header {
+				height: 60px;
+			}
+			form {
+				padding-top: 20px;
+			}
+			.return {
+				margin: 0; 
+			}
+			.wrapper {
+				height: 100%;
+				margin-bottom: -5px;
+			}
+}	
